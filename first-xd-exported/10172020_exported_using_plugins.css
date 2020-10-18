@@ -1,0 +1,420 @@
+.mediaViewInfo {
+	--web-view-name: mockUp-page;
+	--web-view-id: mockUp-page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: mockUp-page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#mockUp-page {
+	position: absolute;
+	width: 1366px;
+	height: 1120px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: mockUp-page;
+	--web-view-id: mockUp-page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#headerFrame {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.headerFrame {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 130px;
+	left: 0px;
+	top: 0px;
+}
+#logo-group {
+	position: absolute;
+	width: 107.938px;
+	height: 112px;
+	left: 138.031px;
+	top: 10px;
+	overflow: visible;
+}
+#logo-text {
+	left: 14.969px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(56,155,128,1);
+}
+#Logo-graphics {
+	fill: transparent;
+	stroke: rgba(242,177,98,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Logo-graphics {
+	overflow: visible;
+	position: absolute;
+	width: 107.938px;
+	height: 112px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#aboutBtn {
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 477px;
+	top: 37px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: transparent;
+	stroke: rgba(242,177,98,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ABOUT {
+	left: 32px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(242,177,98,1);
+}
+#contactBtn {
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 676px;
+	top: 37px;
+	overflow: visible;
+}
+#Path_1_o {
+	fill: transparent;
+	stroke: rgba(242,177,98,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1_o {
+	overflow: visible;
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#CONTACT {
+	left: 26px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(242,177,98,1);
+}
+#blogBtn {
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 876px;
+	top: 37px;
+	overflow: visible;
+}
+#Path_1_r {
+	fill: transparent;
+	stroke: rgba(242,177,98,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_1_r {
+	overflow: visible;
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#BLOG {
+	left: 46px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(242,177,98,1);
+}
+#signupBtn {
+	fill: rgba(242,177,98,1);
+	stroke: rgba(242,177,98,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.signupBtn {
+	overflow: visible;
+	position: absolute;
+	width: 152px;
+	height: 56px;
+	left: 1075px;
+	top: 38px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#signUp-text {
+	left: 1104px;
+	top: 50px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#top-bg-image {
+	position: absolute;
+	width: 1366px;
+	height: 141px;
+	left: 0px;
+	top: 130px;
+	overflow: visible;
+}
+#welcomeFrame {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.welcomeFrame {
+	position: absolute;
+	overflow: visible;
+	width: 812px;
+	height: 346px;
+	left: 139px;
+	top: 271px;
+}
+#callToActBtn {
+	position: absolute;
+	width: 221px;
+	height: 56px;
+	left: 711px;
+	top: 524px;
+	overflow: visible;
+}
+#callToActBtnBg {
+	fill: rgba(56,155,128,1);
+	stroke: rgba(242,177,98,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.callToActBtnBg {
+	overflow: visible;
+	position: absolute;
+	width: 221px;
+	height: 56px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#callToActBtnText {
+	left: 38px;
+	top: 13px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 23px;
+	color: rgba(255,255,255,1);
+}
+#welcomePara {
+	left: 179px;
+	top: 376px;
+	position: absolute;
+	overflow: visible;
+	width: 734px;
+	height: 130px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#welcomeH1 {
+	left: 179px;
+	top: 317px;
+	position: absolute;
+	overflow: visible;
+	width: 389px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(112,112,112,1);
+}
+#mainImgFrame {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.mainImgFrame {
+	position: absolute;
+	overflow: visible;
+	width: 260px;
+	height: 351px;
+	left: 967px;
+	top: 271px;
+}
+#mainImage {
+	filter: drop-shadow(0px 5px 8px rgba(1, 1, 1, 0.51));
+	position: absolute;
+	width: 224px;
+	height: 318px;
+	left: 986px;
+	top: 286px;
+	overflow: visible;
+}
+#galleryWrapper {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.galleryWrapper {
+	position: absolute;
+	overflow: visible;
+	width: 1088px;
+	height: 374px;
+	left: 139px;
+	top: 633px;
+}
+#galleryImg1 {
+	position: absolute;
+	width: 237px;
+	height: 332px;
+	left: 139px;
+	top: 654px;
+	overflow: visible;
+}
+#galleryImg2 {
+	position: absolute;
+	width: 237px;
+	height: 332px;
+	left: 422px;
+	top: 654px;
+	overflow: visible;
+}
+#galleryImg3 {
+	position: absolute;
+	width: 237px;
+	height: 332px;
+	left: 705px;
+	top: 654px;
+	overflow: visible;
+}
+#galleryImg4 {
+	position: absolute;
+	width: 237px;
+	height: 332px;
+	left: 988px;
+	top: 654px;
+	overflow: visible;
+}
+#footer {
+	fill: rgba(126,135,156,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.footer {
+	position: absolute;
+	overflow: visible;
+	width: 1366px;
+	height: 97px;
+	left: 0px;
+	top: 1023px;
+}
